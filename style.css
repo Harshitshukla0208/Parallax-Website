@@ -1,0 +1,67 @@
+html{
+    box-sizing: border-box;
+}
+*, *::after, *::before{
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.first-img, .second-img, .third-img, .fourth-img{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.first-img{
+    background-image: url(img3.webp);
+    min-height: 500px;
+}
+.second-img{
+    background-image: url(img2.jpg);
+    min-height: 500px;
+}
+.third-img{
+    background-image: url(img1.jpeg);
+    min-height: 500px;
+}
+.fourth-img{
+    background-image: url(img3.webp);
+    min-height: 500px;
+}
+
+section{
+    text-align: center;
+    padding: 3rem 5rem;
+}
+.section-light{
+    background-color: #f4f4f4;
+    color: #0f0f0f;
+}
+.section-dark{
+    background-color: #282e34;
+    color: #ddd;
+}
+
+
+.first-img, .second-img, .third-img{
+    position: relative;
+}
+.first-img > div, .second-img > div, .third-img > div{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.first-img > div > span, .second-img > div > span, .third-img > div > span{
+    background-color: #111;
+    padding: 20px;
+    border: solid black 1px;
+    border-radius: 15px;
+}
