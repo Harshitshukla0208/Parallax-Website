@@ -33,7 +33,7 @@ Here are some tips for customizing your parallax website:
 
 ## Support and Issues
 
-If you encounter any issues or have questions about using this template, please feel free to [create an issue](https://github.com/your-repo-link/issues) on the GitHub repository.
+If you encounter any issues or have questions about using this template, please feel free to [create an issue](https://github.com/Harshitshukla0208/Parallax-Website/issues) on the GitHub repository.
 
 ## Acknowledgments
 
